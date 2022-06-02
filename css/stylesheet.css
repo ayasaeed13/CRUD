@@ -1,0 +1,107 @@
+body{
+    background-color: #000;
+}
+label , h2 , p ,hr{
+    color: #fff;
+}
+header h2 span , header p span  {
+    color: #7FE76F;
+}
+h2{
+    letter-spacing: 3px;
+}
+header p {
+    letter-spacing: 2px;
+}
+ td , table tr th{
+    color: #fff;
+}
+
+#mainBtn  {
+    color: #7FE76F;
+    border-color: #7FE76F;
+    font-weight: bold;
+
+}
+#mainBtn:focus{
+    box-shadow: 0 0 0 0.25rem rgb(127 213 111 / 25%); 
+}
+#mainBtn:hover{
+    color: #000;
+    background-color: #7FE76F;
+    border-color: #7FE76F;
+}
+.btn-info{
+    background-color: #c3b00c;
+    border-color: #c3b00c;
+    color: #fff;   
+}
+.btn-danger{
+    background-color: #512207;
+    border-color: #512207;  
+    color: #fff; 
+}
+.btn-info:hover{
+    background-color: #787e1a;
+    border-color: #787e1a;
+    color: #fff;
+}
+.tabledata{
+    width:90%;
+}
+#scrollBtn{
+    font-weight: bold;
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    display:none;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    background: black;
+}
+svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+    color: white;
+}
+.formdata{
+    width:60%
+}
+.totalprice{
+    background-color:#a00d02;
+    color: #fff;
+    padding: 9px 3px ;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+#searchname , #searchCategory {
+    border-radius: 30px;
+    padding: 10px 39px;
+    font-size: 18px;
+    background-color: #6c3088;
+    border-color: #6c3088;
+    outline: none;
+    color: #fff;
+}
+#searchname::placeholder ,#searchCategory::placeholder{
+    color: #fff;
+}
+#searchname:focus ,#searchCategory:focus{
+    box-shadow: 0 0 0 0.25rem rgb(108 48 136 / 25%);  
+    outline: none;
+    outline: none;
+  }
+
+textarea{
+    width: 100%;
+    height: 102px;
+
+}
+@media screen and (max-width:768px) {
+    .formdata{
+        width:100%;
+    }
+
+}
